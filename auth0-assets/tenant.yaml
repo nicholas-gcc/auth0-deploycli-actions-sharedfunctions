@@ -1,0 +1,18 @@
+actions:
+  - name: action-1
+    code: ./actions/action-1/index.js
+    deployed: true
+    runtime: "node18"  # Replace with your runtime version
+    supported_triggers:
+      - id: "post-login"  # Replace with the appropriate trigger ID
+        version: "v2"    # Replace with the appropriate trigger version
+    # Include dependencies and secrets if needed
+
+  - name: action-2
+    code: ./actions/action-2/index.js
+    deployed: true
+    runtime: "node18"
+    supported_triggers:
+      - id: "post-login"
+        version: "v2"
+    # Include dependencies and secrets if needed
